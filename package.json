@@ -1,0 +1,28 @@
+{
+  "name": "discord_piped",
+  "version": "0.0.1",
+  "description": "A simple discord bot that catches youtube links and suggests alternative Piped links.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Epzillon/discord_piped.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "youtube",
+    "piped"
+  ],
+  "author": "Jakob \"Epzillon\" Eriksson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Epzillon/discord_piped/issues"
+  },
+  "homepage": "https://github.com/Epzillon/discord_piped#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
