@@ -35,7 +35,6 @@ for (const file of eventFiles) {
 
     // Register event if it contains a correctly execute method 
     if ('execute' in event) {
-        console.log("Registering " + event.name + "...")
         if (event.once) {
             client.once(event.name, (...args) => event.execute(...args));
         } else {
