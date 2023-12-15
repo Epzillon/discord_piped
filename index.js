@@ -10,7 +10,7 @@ const commandsPath = srcPath + "/commands";
 const eventsPath = srcPath + "/events";
 
 // Register discord bot functionality
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.DirectMessages] });
 client.commands = new Collection();
 
 // Read and register all commands inside src/commands/
